@@ -1,5 +1,5 @@
-import Message from "../model/Message";
-import Pin from "../model/Pin";
+import Message from "../model/Message.js";
+import Pin from "../model/Pin.js";
 
 const sendMessage = async (req, res) => {
   const { text, sender } = req.body;
